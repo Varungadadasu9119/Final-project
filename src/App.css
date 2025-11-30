@@ -1,0 +1,193 @@
+/* 🌟 Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9fafc;
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+/* 🌈 Header */
+header {
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+nav button {
+  background: white;
+  color: #007bff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  margin: 0 5px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+/* 🏡 Home Page */
+h2 {
+  color: #333;
+}
+
+p {
+  color: #555;
+  font-size: 1rem;
+}
+
+/* 🧾 Register & Login Boxes */
+.form-container {
+  background: white;
+  border: 2px solid #e5e7eb;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 380px;
+  margin: 2rem auto;
+  border-radius: 12px;
+}
+
+.form-container h2 {
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+input,
+textarea {
+  width: 90%;
+  margin: 0.5rem 0;
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.2s ease-in-out;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.4);
+}
+
+/* 🎓 Dashboard */
+.dashboard {
+  background: #ffffff;
+  width: 85%;
+  margin: 2rem auto;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.dashboard h2 {
+  color: #007bff;
+  margin-bottom: 0.5rem;
+}
+
+/* 🧑‍🎓 Student Section */
+.student-section {
+  background: linear-gradient(135deg, #d0f0c0, #a4de02);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.student-section h3 {
+  color: #2b5d34;
+}
+
+/* 👩‍🏫 Teacher Section */
+.teacher-section {
+  background: linear-gradient(135deg, #ffe29f, #ffa62b);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.teacher-section h3 {
+  color: #6b3e00;
+}
+
+/* 📦 Project Cards */
+.project-card {
+  background: #ffffff;
+  border-left: 6px solid #007bff;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 85%;
+  text-align: left;
+  transition: all 0.3s ease;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 5px 15px rgba(0, 123, 255, 0.2);
+}
+
+.project-card strong {
+  color: #007bff;
+}
+
+textarea {
+  width: 90%;
+  height: 80px;
+  resize: none;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.2rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* 🎭 Role Selection */
+.role-select {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.role-select label {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Divider */
+hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 2px solid #eee;
+}
